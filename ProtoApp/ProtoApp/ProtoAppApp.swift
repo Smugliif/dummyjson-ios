@@ -1,9 +1,13 @@
-//
-//  ProtoAppApp.swift
-//  ProtoApp
-//
-//  Created by Valtteri Havula on 8.5.2023.
-//
+
+/**
+ This is an app of Contacts using the backend API dummyjson.
+ 
+ - Author:
+ Valtteri Havula
+ 
+ - Version:
+ 1.0
+ */
 
 import SwiftUI
 
@@ -11,7 +15,7 @@ import SwiftUI
 struct ProtoAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
